@@ -1,32 +1,28 @@
 # Violence-Detection
 Github Of Our Hackathon Project
 
-# AI-Based Smart Traffic Management & Violence Detection System
+# AI-Based Smart Violence Detection System
 
 ## Team Name: Tech Dragons
 
 ---
 
 ## Problem Statement
-AI-based Smart Traffic Management System along with 
+AI-based Smart Violence Detection System with 
 the capability to detect suspect and suspicious activities 
 (Specially for Women Safety-1090).
 
-
-Urban Areas Face Rising Traffic Congestion Due To Rapid Urbanization, Vehicular Congestion And Complex City Layouts Making Traffic Management Inefficient. Simultaneously, Public Safety Especially For Women, Remains A Major Concern As Lack Of Advanced Monitoring Leads To Delayed Law Enforcement Response, Increasing Risks Of Harassment And Criminal Activities.
+Public Safety Especially For Women, Remains A Major Concern As Lack Of Advanced Monitoring Leads To Delayed Law Enforcement Response, Increasing Risks Of Harassment And Criminal Activities.
 
 ## Proposed Solution
-Our AI-based Smart Traffic Management and Violence Detection System aims to solve these problems by integrating real-time surveillance, AI-powered behavioral analytics, and automated traffic control. The system dynamically optimizes traffic flow, prioritizes emergency vehicles, and identifies suspicious activities to enhance urban safety and efficiency.
+Our AI-based Smart Violence Detection System aims to solve these problems by integrating real-time surveillance, AI-powered behavioral analytics, and automated traffic control. The system dynamically optimizes traffic flow, prioritizes emergency vehicles, and identifies suspicious activities to enhance urban safety and efficiency.
 
 ---
 
 ## Overview
-The AI-Based Smart Traffic Management System, integrated with Violence Detection, is designed to optimize traffic flow while ensuring public safety, particularly for women. Leveraging AI-driven surveillance, real-time analytics, and automated traffic control, this system aims to reduce congestion, prioritize emergency vehicles, and detect suspicious activities.
+The AI-Based Smart  Violence Detection, is designed to optimize public safety, particularly for women. Leveraging AI-driven surveillance, real-time analytics, and automated traffic control, this system aims to detect suspicious activities.
 
 ---
-
-## Process Flow Diagram
-![Process Flow Diagram](https://github.com/Aditya1331Kumar/Tech-Dragons/blob/main/Process%20Flow%20Diagram.jpg)
 
 
 ### Detailed Steps
@@ -35,16 +31,12 @@ The AI-Based Smart Traffic Management System, integrated with Violence Detection
    - Traffic density monitoring and behavioral data collection.
 
 2. **Data Processing:**
-   - Extracting vehicle types, traffic patterns, and potential safety threats.
    - AI-based pattern recognition to detect anomalies.
 
 3. **AI Analysis:**
-   - Optimizes signal phases based on real-time congestion.
    - Identifies suspicious activities and triggers necessary alerts.
 
 4. **Outputs & Actions:**
-   - Dynamic signal adjustments for efficient traffic flow.
-   - Real-time emergency vehicle clearance.
    - Instant alerts with geotagged evidence sent to law enforcement.
 
 5. **Feedback Loop:**
@@ -53,9 +45,7 @@ The AI-Based Smart Traffic Management System, integrated with Violence Detection
 ---
 
 ## Features
-- **Smart Traffic Signal Management:** Uses AI to analyze real-time traffic density and adjust signals dynamically.
 - **Violence Detection System:** Detects suspicious activities such as harassment, theft, and violence using AI-powered object recognition.
-- **Emergency Vehicle Priority:** Creates green corridors for ambulances and fire trucks, ensuring quick emergency response.
 - **Real-Time Surveillance:** High-definition CCTV cameras capture live feeds analyzed by AI to identify potential threats.
 - **Automated Law Enforcement Alerts:** Instantly notifies law enforcement with video evidence and geolocation.
 - **Adaptive AI Learning:** Continuously improves through machine learning based on traffic patterns and safety incidents.
@@ -67,7 +57,7 @@ The AI-Based Smart Traffic Management System, integrated with Violence Detection
 
 ## Uniqueness of Our Solution
 
-Our AI-Based Smart Traffic Management & Violence Detection System is a next-generation solution that combines real-time AI-driven traffic optimization with advanced surveillance for public safety. Unlike conventional systems, we integrate **AI-powered behavioral analysis, dynamic traffic control, and real-time emergency response mechanisms** to create an unparalleled urban mobility and security solution.
+Our AI-Based Smart Violence Detection System is a next-generation solution that combines real-time AI-driven traffic optimization with advanced surveillance for public safety. Unlike conventional systems, we integrate **AI-powered behavioral analysis, dynamic traffic control, and real-time emergency response mechanisms** to create an unparalleled urban mobility and security solution.
 
 ### Key Differentiators:
 
@@ -107,60 +97,6 @@ Our AI-Based Smart Traffic Management & Violence Detection System is a next-gene
 Our system is not just an enhancement to existing infrastructure—it is a **game-changer in urban management** that prioritizes both efficiency and safety. 
 
 
---- 
-## Repositories & Codebase
-### 1. Smart Traffic Signal Management
-[GitHub Repository](https://github.com/Aditya1331Kumar/Tech-Dragons/blob/main/smart_signal_management.py)
-
-### 2. Violence Detection System
-[GitHub Repository](https://github.com/Aditya1331Kumar/Tech-Dragons/blob/main/violence_Detection.py)
-
----
-
-# Smart Signal Management
-
-This project helps analyze vehicle density crossing a particular line in a given video using OpenCV and NumPy.
-
-## Requirements
-Ensure you have Python installed on your system. The required dependencies are:
-- OpenCV
-- NumPy
-
-## Installation
-
-1. **Open the terminal**
-2. Install the required dependencies:
-   ```bash
-   pip install opencv-python numpy
-   ```
-3. Run the script:
-   ```bash
-   python smart_signal_management.py
-   ```
-4. When prompted, enter the path to the video file. For example:
-   ```
-   video.mp4
-   ```
-5. A box will appear, showing the calculation of the number of vehicles detected.
-6. The output, including vehicle count, will be displayed in the terminal.
-
-## Example Usage
-```bash
-python smart_signal_management.py
-Enter the video file: video.mp4
-```
-
-## Output
-- A window will display the video with the detection mechanism.
-- The terminal will show the number of vehicles crossing the designated line.
-
-## Notes
-- Ensure the video file is present in the working directory.
-
-
----
-
-
 ## Violence Detection System
 Our violence detection system has been **successfully deployed**, offering real-time threat detection and alerts to ensure public safety.
 
@@ -182,7 +118,6 @@ Experience real-time AI-powered surveillance designed for smart city security.
 ---
 
 ## Future Enhancements
-- Integration with **autonomous vehicles** for seamless navigation.
 - Use of **predictive analytics** to anticipate congestion and safety risks.
 - AI-powered **automated fine collection** for traffic violations.
 - **Blockchain-based** data security for evidence storage.
